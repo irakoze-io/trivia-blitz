@@ -1,0 +1,92 @@
+:host {
+  display: block;
+}
+
+.home-card {
+  text-align: left;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  color: #9f86ff;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 8vw, 3.5rem);
+}
+
+.subtitle {
+  margin: 0.75rem 0 2rem;
+  color: #c8c8ff;
+}
+
+.home-form {
+  display: grid;
+  gap: 1rem;
+}
+
+label {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: #f2f2ff;
+}
+
+input {
+  border: 1px solid rgba(159, 134, 255, 0.35);
+  border-radius: 14px;
+  background: rgba(17, 24, 39, 0.7);
+  color: #fff;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus {
+  border-color: #9f86ff;
+  box-shadow: 0 0 0 3px rgba(159, 134, 255, 0.2);
+}
+
+.actions {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+button {
+  border: 0;
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+.primary {
+  background: linear-gradient(135deg, #9f86ff, #7f5af0);
+  color: #fff;
+}
+
+.secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.error {
+  margin: 1rem 0 0;
+  color: #ff7b7b;
+}
+
+@media (max-width: 480px) {
+  .actions {
+    grid-template-columns: 1fr;
+  }
+}

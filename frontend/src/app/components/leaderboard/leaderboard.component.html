@@ -1,0 +1,16 @@
+<section class="card">
+  <p class="kicker">{{ isFinal ? 'Final results' : 'Round results' }}</p>
+  <h2>{{ isFinal ? 'Game Over' : 'Leaderboard' }}</h2>
+
+  <div class="score-list">
+    <article class="score-row" *ngFor="let score of scores; index as i">
+      <div class="rank">
+        <span>#{{ i + 1 }}</span>
+        <strong>{{ score.playerName }}</strong>
+      </div>
+      <span class="points">{{ score.score }} pts</span>
+    </article>
+  </div>
+
+  <p class="footer-copy">{{ isFinal ? 'Thanks for playing Trivia Blitz.' : 'Get ready for the next question…' }}</p>
+</section>

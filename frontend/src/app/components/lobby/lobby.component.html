@@ -1,0 +1,22 @@
+<section class="card">
+  <div class="lobby-header">
+    <div>
+      <p class="label">Room code</p>
+      <h2>{{ state.roomCode || '----' }}</h2>
+      <p class="hint">Share this code with your friends.</p>
+    </div>
+    <button *ngIf="state.isHost" class="start-button" type="button" (click)="startGame()">Start Game</button>
+  </div>
+
+  <div class="player-list">
+    <article class="player-row" *ngFor="let player of state.players">
+      <div>
+        <strong>{{ player.name }}</strong>
+        <span *ngIf="player.isHost" class="host-badge">👑 Host</span>
+      </div>
+      <span class="score">{{ player.score }} pts</span>
+    </article>
+  </div>
+
+  <p class="waiting">Waiting for the host to launch the first question…</p>
+</section>
