@@ -1,0 +1,32 @@
+<div class="app-shell" *ngIf="state$ | async as state">
+  <header class="topbar">
+    <div>
+      <span class="brand">Trivia Blitz</span>
+      <p class="subtext">Real-time multiplayer trivia</p>
+    </div>
+    <span class="status-pill" [class.connected]="(connectionStatus$ | async) === 'Connected'">
+      {{ connectionStatus$ | async }}
+    </span>
+  </header>
+
+  <main class="content">
+    <p class="banner error" *ngIf="state.error">{{ state.error }}</p>
+
+    <ng-container [ngSwitch]="state.view">
+      <app-home *ngSwitchCase="'home'"></app-home>
+      <app-lobby *ngSwitchCase="'lobby'" [state]="state"></app-lobby>
+      <app-question *ngSwitchCase="'question'" [state]="state"></app-question>
+      <app-leaderboard
+        *ngSwitchCase="'leaderboard'"
+        [scores]="state.leaderboard"
+        [isFinal]="false"
+      ></app-leaderboard>
+      <app-leaderboard
+        *ngSwitchCase="'gameover'"
+        [scores]="state.leaderboard"
+        [isFinal]="true"
+      ></app-leaderboard>
+      <app-home *ngSwitchDefault></app-home>
+    </ng-container>
+  </main>
+</div>

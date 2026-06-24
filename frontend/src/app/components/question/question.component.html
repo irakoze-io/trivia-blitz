@@ -1,0 +1,28 @@
+<section class="card" *ngIf="state.currentQuestion as question">
+  <div class="question-header">
+    <p>Question {{ question.questionIndex + 1 }}</p>
+    <span class="timer" [class.danger]="state.secondsLeft <= 5">{{ state.secondsLeft }}s</span>
+  </div>
+
+  <h2>{{ question.text }}</h2>
+
+  <div class="options">
+    <button
+      *ngFor="let optionKey of optionKeys"
+      type="button"
+      class="option-button"
+      [class.selected]="selectedOption === optionKey"
+      [class.correct]="buttonClass(optionKey) === 'correct'"
+      [class.incorrect]="buttonClass(optionKey) === 'incorrect'"
+      [disabled]="hasSubmitted"
+      (click)="submit(optionKey)"
+    >
+      <span class="option-key">{{ optionKey }}</span>
+      <span>{{ question.options[optionKey] }}</span>
+    </button>
+  </div>
+
+  <p class="ack" *ngIf="state.lastAck as ack" [class.error]="!ack.correct">
+    {{ ack.message }} <span *ngIf="ack.points">(+{{ ack.points }} pts)</span>
+  </p>
+</section>

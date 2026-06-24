@@ -1,0 +1,24 @@
+<section class="card home-card">
+  <p class="eyebrow">Multiplayer trivia, live and loud</p>
+  <h1>Trivia Blitz</h1>
+  <p class="subtitle">Create a room or join friends for a fast-paced quiz battle.</p>
+
+  <form [formGroup]="form" class="home-form" novalidate>
+    <label>
+      <span>Player name</span>
+      <input type="text" formControlName="playerName" placeholder="Enter your nickname" maxlength="24" />
+    </label>
+
+    <label>
+      <span>Room code</span>
+      <input type="text" formControlName="roomCode" placeholder="Only needed to join" maxlength="12" />
+    </label>
+
+    <div class="actions">
+      <button type="button" class="primary" (click)="createRoom()">Create Room</button>
+      <button type="button" class="secondary" (click)="joinRoom()">Join Room</button>
+    </div>
+  </form>
+
+  <p class="error" *ngIf="state.error">{{ state.error }}</p>
+</section>
