@@ -1,3 +1,8 @@
+server:
+  port: 1080
+
 spring:
   application:
     name: trivia-blitz
+    version: 0.0.1
+    group: dev.irakodes
