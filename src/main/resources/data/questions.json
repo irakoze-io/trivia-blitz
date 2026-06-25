@@ -1,0 +1,2330 @@
+[
+  {
+    "id": "GEO001",
+    "category": "Geography",
+    "question": "Which empire built Machu Picchu?",
+    "options": {
+      "A": "Aztec",
+      "B": "Maya",
+      "C": "Inca",
+      "D": "Roman"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO002",
+    "category": "Geography",
+    "question": "Which country has the city of Reykjavik as its capital?",
+    "options": {
+      "A": "Norway",
+      "B": "Iceland",
+      "C": "Finland",
+      "D": "Sweden"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "GEO003",
+    "category": "Geography",
+    "question": "Which ocean is the largest on Earth?",
+    "options": {
+      "A": "Atlantic Ocean",
+      "B": "Indian Ocean",
+      "C": "Arctic Ocean",
+      "D": "Pacific Ocean"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "GEO004",
+    "category": "Geography",
+    "question": "Which desert is the largest hot desert in the world?",
+    "options": {
+      "A": "Gobi",
+      "B": "Kalahari",
+      "C": "Sahara",
+      "D": "Arabian"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO005",
+    "category": "Geography",
+    "question": "What is the capital city of Australia?",
+    "options": {
+      "A": "Sydney",
+      "B": "Melbourne",
+      "C": "Canberra",
+      "D": "Brisbane"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO006",
+    "category": "Geography",
+    "question": "Through which country does the Amazon River primarily flow?",
+    "options": {
+      "A": "Colombia",
+      "B": "Peru",
+      "C": "Bolivia",
+      "D": "Brazil"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "GEO007",
+    "category": "Geography",
+    "question": "Which is the smallest country in the world by area?",
+    "options": {
+      "A": "Monaco",
+      "B": "San Marino",
+      "C": "Vatican City",
+      "D": "Liechtenstein"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO008",
+    "category": "Geography",
+    "question": "Which mountain range separates Europe from Asia?",
+    "options": {
+      "A": "Alps",
+      "B": "Caucasus",
+      "C": "Urals",
+      "D": "Carpathians"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO009",
+    "category": "Geography",
+    "question": "What is the longest river in Africa?",
+    "options": {
+      "A": "Congo",
+      "B": "Niger",
+      "C": "Zambezi",
+      "D": "Nile"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "GEO010",
+    "category": "Geography",
+    "question": "Which African country has the most pyramids?",
+    "options": {
+      "A": "Egypt",
+      "B": "Sudan",
+      "C": "Ethiopia",
+      "D": "Libya"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "GEO011",
+    "category": "Geography",
+    "question": "What is the capital of Canada?",
+    "options": {
+      "A": "Toronto",
+      "B": "Vancouver",
+      "C": "Montreal",
+      "D": "Ottawa"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "GEO012",
+    "category": "Geography",
+    "question": "Which sea lies between Italy and the Balkans?",
+    "options": {
+      "A": "Tyrrhenian Sea",
+      "B": "Adriatic Sea",
+      "C": "Ionian Sea",
+      "D": "Aegean Sea"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "GEO013",
+    "category": "Geography",
+    "question": "Which country is home to the most natural lakes?",
+    "options": {
+      "A": "Russia",
+      "B": "United States",
+      "C": "Canada",
+      "D": "Finland"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO014",
+    "category": "Geography",
+    "question": "What is the capital of Japan?",
+    "options": {
+      "A": "Osaka",
+      "B": "Kyoto",
+      "C": "Tokyo",
+      "D": "Hiroshima"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO015",
+    "category": "Geography",
+    "question": "Which country is the Serengeti National Park located in?",
+    "options": {
+      "A": "Kenya",
+      "B": "Tanzania",
+      "C": "Uganda",
+      "D": "Zimbabwe"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "GEO016",
+    "category": "Geography",
+    "question": "Which strait separates Europe from Africa?",
+    "options": {
+      "A": "Strait of Hormuz",
+      "B": "Bosphorus",
+      "C": "Strait of Gibraltar",
+      "D": "Strait of Messina"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO017",
+    "category": "Geography",
+    "question": "Which is the largest country in the world by area?",
+    "options": {
+      "A": "China",
+      "B": "USA",
+      "C": "Canada",
+      "D": "Russia"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "GEO018",
+    "category": "Geography",
+    "question": "Where is the Great Barrier Reef located?",
+    "options": {
+      "A": "New Zealand",
+      "B": "Philippines",
+      "C": "Australia",
+      "D": "Indonesia"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "GEO019",
+    "category": "Geography",
+    "question": "Which country borders both the Atlantic and Indian Oceans?",
+    "options": {
+      "A": "Brazil",
+      "B": "South Africa",
+      "C": "Argentina",
+      "D": "Mozambique"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "GEO020",
+    "category": "Geography",
+    "question": "What is the capital of Brazil?",
+    "options": {
+      "A": "Rio de Janeiro",
+      "B": "São Paulo",
+      "C": "Salvador",
+      "D": "Brasília"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "SCI001",
+    "category": "Science",
+    "question": "What planet is known as the Red Planet?",
+    "options": {
+      "A": "Mars",
+      "B": "Venus",
+      "C": "Mercury",
+      "D": "Jupiter"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "SCI002",
+    "category": "Science",
+    "question": "What gas do plants primarily absorb for photosynthesis?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Hydrogen",
+      "C": "Carbon Dioxide",
+      "D": "Nitrogen"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI003",
+    "category": "Science",
+    "question": "What is the chemical symbol for gold?",
+    "options": {
+      "A": "Ag",
+      "B": "Au",
+      "C": "Gd",
+      "D": "Go"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SCI004",
+    "category": "Science",
+    "question": "What is the speed of light in a vacuum (approximately)?",
+    "options": {
+      "A": "150,000 km/s",
+      "B": "300,000 km/s",
+      "C": "450,000 km/s",
+      "D": "600,000 km/s"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SCI005",
+    "category": "Science",
+    "question": "How many bones are in the adult human body?",
+    "options": {
+      "A": "196",
+      "B": "206",
+      "C": "216",
+      "D": "226"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SCI006",
+    "category": "Science",
+    "question": "What is the powerhouse of the cell?",
+    "options": {
+      "A": "Nucleus",
+      "B": "Ribosome",
+      "C": "Mitochondria",
+      "D": "Vacuole"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI007",
+    "category": "Science",
+    "question": "Which element has the atomic number 1?",
+    "options": {
+      "A": "Helium",
+      "B": "Lithium",
+      "C": "Oxygen",
+      "D": "Hydrogen"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "SCI008",
+    "category": "Science",
+    "question": "What force keeps planets in orbit around the Sun?",
+    "options": {
+      "A": "Magnetic force",
+      "B": "Nuclear force",
+      "C": "Gravity",
+      "D": "Electrostatic force"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI009",
+    "category": "Science",
+    "question": "Which planet has the most moons in our solar system?",
+    "options": {
+      "A": "Jupiter",
+      "B": "Saturn",
+      "C": "Uranus",
+      "D": "Neptune"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SCI010",
+    "category": "Science",
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Carbon Dioxide",
+      "C": "Argon",
+      "D": "Nitrogen"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "SCI011",
+    "category": "Science",
+    "question": "What type of bond involves the sharing of electron pairs between atoms?",
+    "options": {
+      "A": "Ionic bond",
+      "B": "Metallic bond",
+      "C": "Covalent bond",
+      "D": "Hydrogen bond"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI012",
+    "category": "Science",
+    "question": "Which organ produces insulin?",
+    "options": {
+      "A": "Liver",
+      "B": "Kidney",
+      "C": "Pancreas",
+      "D": "Spleen"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI013",
+    "category": "Science",
+    "question": "What is the smallest unit of matter?",
+    "options": {
+      "A": "Molecule",
+      "B": "Atom",
+      "C": "Electron",
+      "D": "Quark"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "SCI014",
+    "category": "Science",
+    "question": "Which planet is closest to the Sun?",
+    "options": {
+      "A": "Venus",
+      "B": "Earth",
+      "C": "Mercury",
+      "D": "Mars"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI015",
+    "category": "Science",
+    "question": "What is the chemical formula for water?",
+    "options": {
+      "A": "HO",
+      "B": "H2O",
+      "C": "H2O2",
+      "D": "OH2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SCI016",
+    "category": "Science",
+    "question": "How many chromosomes does a typical human cell have?",
+    "options": {
+      "A": "23",
+      "B": "44",
+      "C": "46",
+      "D": "48"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI017",
+    "category": "Science",
+    "question": "What is the hardest natural substance on Earth?",
+    "options": {
+      "A": "Graphite",
+      "B": "Quartz",
+      "C": "Topaz",
+      "D": "Diamond"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "SCI018",
+    "category": "Science",
+    "question": "Which scientist proposed the theory of general relativity?",
+    "options": {
+      "A": "Isaac Newton",
+      "B": "Niels Bohr",
+      "C": "Albert Einstein",
+      "D": "Max Planck"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI019",
+    "category": "Science",
+    "question": "What is the pH of pure water?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI020",
+    "category": "Science",
+    "question": "Which blood type is known as the universal donor?",
+    "options": {
+      "A": "AB+",
+      "B": "O+",
+      "C": "A-",
+      "D": "O-"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "SCI021",
+    "category": "Science",
+    "question": "What is the name of the process by which a solid changes directly to a gas?",
+    "options": {
+      "A": "Evaporation",
+      "B": "Condensation",
+      "C": "Sublimation",
+      "D": "Deposition"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SCI022",
+    "category": "Science",
+    "question": "Which part of the human brain controls balance and coordination?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Cerebellum",
+      "C": "Medulla oblongata",
+      "D": "Hypothalamus"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SCI023",
+    "category": "Science",
+    "question": "What is the unit of electrical resistance?",
+    "options": {
+      "A": "Volt",
+      "B": "Ampere",
+      "C": "Watt",
+      "D": "Ohm"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "SCI024",
+    "category": "Science",
+    "question": "Which vitamin is produced when the human skin is exposed to sunlight?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Vitamin D",
+      "D": "Vitamin K"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS001",
+    "category": "History",
+    "question": "The Battle of Hastings took place in which year?",
+    "options": {
+      "A": "1066",
+      "B": "1215",
+      "C": "1415",
+      "D": "1666"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "HIS002",
+    "category": "History",
+    "question": "Who directed the 1997 film Titanic?",
+    "options": {
+      "A": "Steven Spielberg",
+      "B": "Christopher Nolan",
+      "C": "James Cameron",
+      "D": "Ridley Scott"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS003",
+    "category": "History",
+    "question": "In which year did World War II end?",
+    "options": {
+      "A": "1943",
+      "B": "1944",
+      "C": "1945",
+      "D": "1946"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS004",
+    "category": "History",
+    "question": "Which ancient wonder was located in Alexandria, Egypt?",
+    "options": {
+      "A": "Colossus of Rhodes",
+      "B": "Lighthouse of Alexandria",
+      "C": "Hanging Gardens",
+      "D": "Temple of Artemis"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "HIS005",
+    "category": "History",
+    "question": "Who was the first President of the United States?",
+    "options": {
+      "A": "Thomas Jefferson",
+      "B": "John Adams",
+      "C": "George Washington",
+      "D": "Benjamin Franklin"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS006",
+    "category": "History",
+    "question": "The French Revolution began in which year?",
+    "options": {
+      "A": "1776",
+      "B": "1783",
+      "C": "1789",
+      "D": "1799"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS007",
+    "category": "History",
+    "question": "Which empire was ruled by Julius Caesar?",
+    "options": {
+      "A": "Greek Empire",
+      "B": "Ottoman Empire",
+      "C": "Byzantine Empire",
+      "D": "Roman Empire"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "HIS008",
+    "category": "History",
+    "question": "The Berlin Wall fell in which year?",
+    "options": {
+      "A": "1987",
+      "B": "1988",
+      "C": "1989",
+      "D": "1991"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS009",
+    "category": "History",
+    "question": "Who painted the Mona Lisa?",
+    "options": {
+      "A": "Michelangelo",
+      "B": "Raphael",
+      "C": "Donatello",
+      "D": "Leonardo da Vinci"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "HIS010",
+    "category": "History",
+    "question": "In which year did man first land on the Moon?",
+    "options": {
+      "A": "1965",
+      "B": "1967",
+      "C": "1969",
+      "D": "1972"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS011",
+    "category": "History",
+    "question": "Which country was the first to grant women the right to vote nationally?",
+    "options": {
+      "A": "Australia",
+      "B": "Finland",
+      "C": "New Zealand",
+      "D": "Norway"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS012",
+    "category": "History",
+    "question": "Who wrote the Communist Manifesto?",
+    "options": {
+      "A": "Lenin and Stalin",
+      "B": "Marx and Engels",
+      "C": "Trotsky and Lenin",
+      "D": "Engels and Stalin"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "HIS013",
+    "category": "History",
+    "question": "Which civilization built the Colosseum?",
+    "options": {
+      "A": "Greeks",
+      "B": "Egyptians",
+      "C": "Romans",
+      "D": "Persians"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS014",
+    "category": "History",
+    "question": "In what year was the Magna Carta signed?",
+    "options": {
+      "A": "1066",
+      "B": "1215",
+      "C": "1312",
+      "D": "1415"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "HIS015",
+    "category": "History",
+    "question": "Who was the Egyptian queen famously associated with Julius Caesar and Mark Antony?",
+    "options": {
+      "A": "Nefertiti",
+      "B": "Hatshepsut",
+      "C": "Cleopatra",
+      "D": "Isis"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS016",
+    "category": "History",
+    "question": "What ship sank on its maiden voyage in 1912?",
+    "options": {
+      "A": "Lusitania",
+      "B": "Titanic",
+      "C": "Britannic",
+      "D": "Olympic"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "HIS017",
+    "category": "History",
+    "question": "Which country was first to launch a satellite into space?",
+    "options": {
+      "A": "USA",
+      "B": "China",
+      "C": "Soviet Union",
+      "D": "Germany"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS018",
+    "category": "History",
+    "question": "The American Declaration of Independence was signed in which year?",
+    "options": {
+      "A": "1774",
+      "B": "1775",
+      "C": "1776",
+      "D": "1777"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "HIS019",
+    "category": "History",
+    "question": "Who was known as the 'Iron Lady'?",
+    "options": {
+      "A": "Angela Merkel",
+      "B": "Indira Gandhi",
+      "C": "Golda Meir",
+      "D": "Margaret Thatcher"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "HIS020",
+    "category": "History",
+    "question": "Which ancient civilization built Stonehenge?",
+    "options": {
+      "A": "Romans",
+      "B": "Vikings",
+      "C": "Druids/Neolithic Britons",
+      "D": "Celts"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT001",
+    "category": "Entertainment",
+    "question": "Which artist released the album '1989'?",
+    "options": {
+      "A": "Taylor Swift",
+      "B": "Adele",
+      "C": "Beyoncé",
+      "D": "Dua Lipa"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "ENT002",
+    "category": "Entertainment",
+    "question": "What is the highest-grossing film of all time (adjusted for inflation)?",
+    "options": {
+      "A": "Avengers: Endgame",
+      "B": "Gone with the Wind",
+      "C": "Avatar",
+      "D": "Titanic"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ENT003",
+    "category": "Entertainment",
+    "question": "Who played Tony Stark / Iron Man in the Marvel Cinematic Universe?",
+    "options": {
+      "A": "Chris Evans",
+      "B": "Chris Hemsworth",
+      "C": "Robert Downey Jr.",
+      "D": "Mark Ruffalo"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT004",
+    "category": "Entertainment",
+    "question": "Which band performed 'Bohemian Rhapsody'?",
+    "options": {
+      "A": "The Beatles",
+      "B": "Led Zeppelin",
+      "C": "Queen",
+      "D": "Rolling Stones"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT005",
+    "category": "Entertainment",
+    "question": "Which TV series features the fictional country Westeros?",
+    "options": {
+      "A": "The Witcher",
+      "B": "Game of Thrones",
+      "C": "Vikings",
+      "D": "The Last Kingdom"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ENT006",
+    "category": "Entertainment",
+    "question": "Who wrote the Harry Potter series?",
+    "options": {
+      "A": "Roald Dahl",
+      "B": "C.S. Lewis",
+      "C": "J.R.R. Tolkien",
+      "D": "J.K. Rowling"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ENT007",
+    "category": "Entertainment",
+    "question": "In which fictional city does Batman operate?",
+    "options": {
+      "A": "Metropolis",
+      "B": "Star City",
+      "C": "Central City",
+      "D": "Gotham City"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ENT008",
+    "category": "Entertainment",
+    "question": "Which movie features the quote 'To infinity and beyond!'?",
+    "options": {
+      "A": "A Bug's Life",
+      "B": "Monsters, Inc.",
+      "C": "Toy Story",
+      "D": "Finding Nemo"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT009",
+    "category": "Entertainment",
+    "question": "Who sang 'Thriller'?",
+    "options": {
+      "A": "Prince",
+      "B": "Michael Jackson",
+      "C": "David Bowie",
+      "D": "Stevie Wonder"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ENT010",
+    "category": "Entertainment",
+    "question": "How many Academy Awards did 'The Lord of the Rings: The Return of the King' win?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT011",
+    "category": "Entertainment",
+    "question": "Which streaming platform produced the series 'Stranger Things'?",
+    "options": {
+      "A": "HBO",
+      "B": "Amazon Prime",
+      "C": "Netflix",
+      "D": "Disney+"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT012",
+    "category": "Entertainment",
+    "question": "What is the name of the lion in 'The Lion, the Witch and the Wardrobe'?",
+    "options": {
+      "A": "Simba",
+      "B": "Aslan",
+      "C": "Mufasa",
+      "D": "Leo"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ENT013",
+    "category": "Entertainment",
+    "question": "Which artist is known as the 'Queen of Pop'?",
+    "options": {
+      "A": "Mariah Carey",
+      "B": "Celine Dion",
+      "C": "Madonna",
+      "D": "Whitney Houston"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT014",
+    "category": "Entertainment",
+    "question": "In the TV show 'Friends', what is the name of Ross's pet monkey?",
+    "options": {
+      "A": "Bubbles",
+      "B": "Marcel",
+      "C": "Spike",
+      "D": "Coco"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ENT015",
+    "category": "Entertainment",
+    "question": "Which studio produced the animated film 'Spirited Away'?",
+    "options": {
+      "A": "Toei Animation",
+      "B": "Sunrise",
+      "C": "Studio Ghibli",
+      "D": "Madhouse"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT016",
+    "category": "Entertainment",
+    "question": "What instrument does Sherlock Holmes famously play?",
+    "options": {
+      "A": "Piano",
+      "B": "Cello",
+      "C": "Violin",
+      "D": "Flute"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ENT017",
+    "category": "Entertainment",
+    "question": "Which movie franchise features the character Jack Sparrow?",
+    "options": {
+      "A": "Indiana Jones",
+      "B": "Pirates of the Caribbean",
+      "C": "The Mummy",
+      "D": "National Treasure"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ENT018",
+    "category": "Entertainment",
+    "question": "Who composed 'The Four Seasons'?",
+    "options": {
+      "A": "Bach",
+      "B": "Mozart",
+      "C": "Beethoven",
+      "D": "Vivaldi"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ENT019",
+    "category": "Entertainment",
+    "question": "What is the best-selling video game of all time?",
+    "options": {
+      "A": "Tetris",
+      "B": "Minecraft",
+      "C": "GTA V",
+      "D": "Wii Sports"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ENT020",
+    "category": "Entertainment",
+    "question": "In which year was the first iPhone released?",
+    "options": {
+      "A": "2005",
+      "B": "2006",
+      "C": "2007",
+      "D": "2008"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO001",
+    "category": "Sports",
+    "question": "In which sport do players use a shuttlecock?",
+    "options": {
+      "A": "Squash",
+      "B": "Badminton",
+      "C": "Racquetball",
+      "D": "Pickleball"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SPO002",
+    "category": "Sports",
+    "question": "How many players are there in a standard rugby union team?",
+    "options": {
+      "A": "11",
+      "B": "13",
+      "C": "15",
+      "D": "17"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO003",
+    "category": "Sports",
+    "question": "Which country has won the most FIFA World Cup titles?",
+    "options": {
+      "A": "Germany",
+      "B": "Italy",
+      "C": "Argentina",
+      "D": "Brazil"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "SPO004",
+    "category": "Sports",
+    "question": "In which city were the 2016 Summer Olympics held?",
+    "options": {
+      "A": "London",
+      "B": "Tokyo",
+      "C": "Rio de Janeiro",
+      "D": "Beijing"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO005",
+    "category": "Sports",
+    "question": "What is the maximum score achievable in a single game of ten-pin bowling?",
+    "options": {
+      "A": "200",
+      "B": "250",
+      "C": "300",
+      "D": "350"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO006",
+    "category": "Sports",
+    "question": "In tennis, what is the term for a score of 40-40?",
+    "options": {
+      "A": "Deuce",
+      "B": "Tie-break",
+      "C": "Advantage",
+      "D": "Break"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "SPO007",
+    "category": "Sports",
+    "question": "How many holes are in a standard round of golf?",
+    "options": {
+      "A": "9",
+      "B": "12",
+      "C": "18",
+      "D": "27"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO008",
+    "category": "Sports",
+    "question": "Which athlete has won the most Olympic gold medals ever?",
+    "options": {
+      "A": "Carl Lewis",
+      "B": "Usain Bolt",
+      "C": "Michael Phelps",
+      "D": "Mark Spitz"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO009",
+    "category": "Sports",
+    "question": "What sport is played at Wimbledon?",
+    "options": {
+      "A": "Cricket",
+      "B": "Tennis",
+      "C": "Croquet",
+      "D": "Squash"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SPO010",
+    "category": "Sports",
+    "question": "How many players are on a basketball court per team during play?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SPO011",
+    "category": "Sports",
+    "question": "Which country invented the sport of cricket?",
+    "options": {
+      "A": "Australia",
+      "B": "India",
+      "C": "England",
+      "D": "South Africa"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO012",
+    "category": "Sports",
+    "question": "What is the length of a standard marathon in kilometres?",
+    "options": {
+      "A": "40.195",
+      "B": "41.195",
+      "C": "42.195",
+      "D": "43.195"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO013",
+    "category": "Sports",
+    "question": "In Formula 1, what does DRS stand for?",
+    "options": {
+      "A": "Drag Reduction System",
+      "B": "Dynamic Rear Spoiler",
+      "C": "Drive Rotation System",
+      "D": "Direct Racing Speed"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "SPO014",
+    "category": "Sports",
+    "question": "Which team has won the most Super Bowl titles?",
+    "options": {
+      "A": "Dallas Cowboys",
+      "B": "San Francisco 49ers",
+      "C": "New England Patriots",
+      "D": "Pittsburgh Steelers"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO015",
+    "category": "Sports",
+    "question": "In which sport would you perform a 'slam dunk'?",
+    "options": {
+      "A": "Volleyball",
+      "B": "Basketball",
+      "C": "Handball",
+      "D": "Netball"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "SPO016",
+    "category": "Sports",
+    "question": "How often are the Summer Olympic Games held?",
+    "options": {
+      "A": "Every 2 years",
+      "B": "Every 3 years",
+      "C": "Every 4 years",
+      "D": "Every 5 years"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO017",
+    "category": "Sports",
+    "question": "Which country won the first ever FIFA World Cup in 1930?",
+    "options": {
+      "A": "Brazil",
+      "B": "Argentina",
+      "C": "Uruguay",
+      "D": "Italy"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO018",
+    "category": "Sports",
+    "question": "What material is the standard baseball bat made from?",
+    "options": {
+      "A": "Aluminium",
+      "B": "Carbon fibre",
+      "C": "Wood",
+      "D": "Composite plastic"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO019",
+    "category": "Sports",
+    "question": "In which sport is a 'googly' a type of delivery?",
+    "options": {
+      "A": "Baseball",
+      "B": "Tennis",
+      "C": "Cricket",
+      "D": "Softball"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "SPO020",
+    "category": "Sports",
+    "question": "Which country hosted the 2022 FIFA World Cup?",
+    "options": {
+      "A": "UAE",
+      "B": "Saudi Arabia",
+      "C": "Bahrain",
+      "D": "Qatar"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "LIT001",
+    "category": "Literature",
+    "question": "Who wrote '1984'?",
+    "options": {
+      "A": "Aldous Huxley",
+      "B": "George Orwell",
+      "C": "Ray Bradbury",
+      "D": "H.G. Wells"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "LIT002",
+    "category": "Literature",
+    "question": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+    "options": {
+      "A": "Macbeth",
+      "B": "Othello",
+      "C": "Hamlet",
+      "D": "King Lear"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT003",
+    "category": "Literature",
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "options": {
+      "A": "Charlotte Brontë",
+      "B": "Jane Austen",
+      "C": "Emily Brontë",
+      "D": "Mary Shelley"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "LIT004",
+    "category": "Literature",
+    "question": "In which novel would you find the character Jay Gatsby?",
+    "options": {
+      "A": "The Sun Also Rises",
+      "B": "For Whom the Bell Tolls",
+      "C": "The Great Gatsby",
+      "D": "A Farewell to Arms"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT005",
+    "category": "Literature",
+    "question": "Who wrote 'Don Quixote'?",
+    "options": {
+      "A": "Lope de Vega",
+      "B": "Miguel de Cervantes",
+      "C": "Francisco Goya",
+      "D": "Federico García Lorca"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "LIT006",
+    "category": "Literature",
+    "question": "What is the first book of the Bible?",
+    "options": {
+      "A": "Exodus",
+      "B": "Psalms",
+      "C": "Genesis",
+      "D": "Numbers"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT007",
+    "category": "Literature",
+    "question": "Who wrote 'The Odyssey'?",
+    "options": {
+      "A": "Sophocles",
+      "B": "Virgil",
+      "C": "Aristotle",
+      "D": "Homer"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "LIT008",
+    "category": "Literature",
+    "question": "Which Dickens novel features the character Ebenezer Scrooge?",
+    "options": {
+      "A": "Oliver Twist",
+      "B": "David Copperfield",
+      "C": "A Christmas Carol",
+      "D": "Great Expectations"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT009",
+    "category": "Literature",
+    "question": "Who wrote 'The Catcher in the Rye'?",
+    "options": {
+      "A": "Ernest Hemingway",
+      "B": "J.D. Salinger",
+      "C": "F. Scott Fitzgerald",
+      "D": "William Faulkner"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "LIT010",
+    "category": "Literature",
+    "question": "Which novel begins with the line 'Call me Ishmael'?",
+    "options": {
+      "A": "Robinson Crusoe",
+      "B": "Treasure Island",
+      "C": "Moby-Dick",
+      "D": "The Old Man and the Sea"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT011",
+    "category": "Literature",
+    "question": "Who wrote 'War and Peace'?",
+    "options": {
+      "A": "Fyodor Dostoevsky",
+      "B": "Anton Chekhov",
+      "C": "Leo Tolstoy",
+      "D": "Ivan Turgenev"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT012",
+    "category": "Literature",
+    "question": "In which city is Shakespeare's 'Romeo and Juliet' set?",
+    "options": {
+      "A": "Florence",
+      "B": "Venice",
+      "C": "Naples",
+      "D": "Verona"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "LIT013",
+    "category": "Literature",
+    "question": "What dystopian society is described in 'Brave New World'?",
+    "options": {
+      "A": "Oceania",
+      "B": "Panem",
+      "C": "World State",
+      "D": "Gilead"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT014",
+    "category": "Literature",
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "options": {
+      "A": "Toni Morrison",
+      "B": "Harper Lee",
+      "C": "Maya Angelou",
+      "D": "Flannery O'Connor"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "LIT015",
+    "category": "Literature",
+    "question": "Which poet wrote 'The Waste Land'?",
+    "options": {
+      "A": "W.B. Yeats",
+      "B": "Ezra Pound",
+      "C": "T.S. Eliot",
+      "D": "Wilfred Owen"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT016",
+    "category": "Literature",
+    "question": "What is the subtitle of Mary Shelley's 'Frankenstein'?",
+    "options": {
+      "A": "The Modern Prometheus",
+      "B": "The New Adam",
+      "C": "The Fallen Angel",
+      "D": "The Dark Creation"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "LIT017",
+    "category": "Literature",
+    "question": "Who wrote 'Things Fall Apart'?",
+    "options": {
+      "A": "Wole Soyinka",
+      "B": "Ngũgĩ wa Thiong'o",
+      "C": "Chinua Achebe",
+      "D": "Ben Okri"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LIT018",
+    "category": "Literature",
+    "question": "In 'The Lord of the Rings', what is the name of the mountain where the One Ring must be destroyed?",
+    "options": {
+      "A": "Mount Doom",
+      "B": "Mount Fangorn",
+      "C": "Mount Caradhras",
+      "D": "Mount Erebor"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "LIT019",
+    "category": "Literature",
+    "question": "Who wrote 'One Hundred Years of Solitude'?",
+    "options": {
+      "A": "Pablo Neruda",
+      "B": "Jorge Luis Borges",
+      "C": "Mario Vargas Llosa",
+      "D": "Gabriel García Márquez"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "LIT020",
+    "category": "Literature",
+    "question": "In which novel does the character Winston Smith appear?",
+    "options": {
+      "A": "Brave New World",
+      "B": "Fahrenheit 451",
+      "C": "1984",
+      "D": "We"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "MATH001",
+    "category": "Mathematics",
+    "question": "What is the value of Pi (to two decimal places)?",
+    "options": {
+      "A": "3.12",
+      "B": "3.14",
+      "C": "3.16",
+      "D": "3.18"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "MATH002",
+    "category": "Mathematics",
+    "question": "What is the square root of 144?",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "MATH003",
+    "category": "Mathematics",
+    "question": "What is 15% of 200?",
+    "options": {
+      "A": "25",
+      "B": "30",
+      "C": "35",
+      "D": "40"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "MATH004",
+    "category": "Mathematics",
+    "question": "How many sides does a heptagon have?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "MATH005",
+    "category": "Mathematics",
+    "question": "What is the next prime number after 7?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "MATH006",
+    "category": "Mathematics",
+    "question": "What is 2 to the power of 10?",
+    "options": {
+      "A": "512",
+      "B": "1024",
+      "C": "2048",
+      "D": "4096"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "MATH007",
+    "category": "Mathematics",
+    "question": "In a right-angled triangle, what does the Pythagorean theorem state?",
+    "options": {
+      "A": "a + b = c",
+      "B": "a² - b² = c²",
+      "C": "a² + b² = c²",
+      "D": "a × b = c²"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "MATH008",
+    "category": "Mathematics",
+    "question": "What is the sum of all angles in a triangle?",
+    "options": {
+      "A": "90°",
+      "B": "180°",
+      "C": "270°",
+      "D": "360°"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "MATH009",
+    "category": "Mathematics",
+    "question": "What is the Roman numeral for 500?",
+    "options": {
+      "A": "C",
+      "B": "D",
+      "C": "L",
+      "D": "M"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "MATH010",
+    "category": "Mathematics",
+    "question": "Which of these is NOT a prime number?",
+    "options": {
+      "A": "17",
+      "B": "19",
+      "C": "21",
+      "D": "23"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "MATH011",
+    "category": "Mathematics",
+    "question": "What is the result of 7 factorial (7!)?",
+    "options": {
+      "A": "2520",
+      "B": "4040",
+      "C": "5040",
+      "D": "7560"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "MATH012",
+    "category": "Mathematics",
+    "question": "What is the area of a circle with radius 5? (use π ≈ 3.14)",
+    "options": {
+      "A": "15.70",
+      "B": "31.40",
+      "C": "78.50",
+      "D": "62.80"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "MATH013",
+    "category": "Mathematics",
+    "question": "What number is known as the 'Golden Ratio' (approximately)?",
+    "options": {
+      "A": "1.414",
+      "B": "1.618",
+      "C": "1.732",
+      "D": "2.718"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "MATH014",
+    "category": "Mathematics",
+    "question": "In binary, what does '1010' represent in decimal?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "12"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "MATH015",
+    "category": "Mathematics",
+    "question": "What is the Fibonacci sequence's 7th term? (Starting: 1, 1, 2, 3, 5...)",
+    "options": {
+      "A": "8",
+      "B": "11",
+      "C": "13",
+      "D": "21"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH001",
+    "category": "Technology",
+    "question": "What does 'HTTP' stand for?",
+    "options": {
+      "A": "Hypertext Transfer Protocol",
+      "B": "High Transfer Text Protocol",
+      "C": "Hypertext Transmission Process",
+      "D": "Hybrid Text Transfer Protocol"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "TECH002",
+    "category": "Technology",
+    "question": "Which programming language is known as the 'language of the web'?",
+    "options": {
+      "A": "Python",
+      "B": "Java",
+      "C": "JavaScript",
+      "D": "Ruby"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH003",
+    "category": "Technology",
+    "question": "What does 'AI' stand for?",
+    "options": {
+      "A": "Automated Intelligence",
+      "B": "Artificial Intelligence",
+      "C": "Automated Integration",
+      "D": "Artificial Integration"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "TECH004",
+    "category": "Technology",
+    "question": "Which company created the Android operating system?",
+    "options": {
+      "A": "Apple",
+      "B": "Samsung",
+      "C": "Microsoft",
+      "D": "Google"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "TECH005",
+    "category": "Technology",
+    "question": "What does 'CPU' stand for?",
+    "options": {
+      "A": "Central Processing Unit",
+      "B": "Core Processing Unit",
+      "C": "Central Program Utility",
+      "D": "Computer Processing Unit"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "TECH006",
+    "category": "Technology",
+    "question": "In computing, what does 'RAM' stand for?",
+    "options": {
+      "A": "Read-Access Memory",
+      "B": "Random-Access Memory",
+      "C": "Rapid Application Memory",
+      "D": "Rewritable Accessible Memory"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "TECH007",
+    "category": "Technology",
+    "question": "Who co-founded Apple Inc. with Steve Jobs?",
+    "options": {
+      "A": "Bill Gates",
+      "B": "Steve Wozniak",
+      "C": "Larry Page",
+      "D": "Elon Musk"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "TECH008",
+    "category": "Technology",
+    "question": "What was the first commercially successful web browser?",
+    "options": {
+      "A": "Internet Explorer",
+      "B": "Mosaic",
+      "C": "Netscape Navigator",
+      "D": "Opera"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH009",
+    "category": "Technology",
+    "question": "Which company developed the Java programming language?",
+    "options": {
+      "A": "Microsoft",
+      "B": "IBM",
+      "C": "Sun Microsystems",
+      "D": "Oracle"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH010",
+    "category": "Technology",
+    "question": "What does 'URL' stand for?",
+    "options": {
+      "A": "Universal Resource Locator",
+      "B": "Uniform Resource Locator",
+      "C": "Unified Reference Link",
+      "D": "Unique Resource Label"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "TECH011",
+    "category": "Technology",
+    "question": "Which data structure works on a LIFO (Last In, First Out) principle?",
+    "options": {
+      "A": "Queue",
+      "B": "Tree",
+      "C": "Stack",
+      "D": "Graph"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH012",
+    "category": "Technology",
+    "question": "What does 'SQL' stand for?",
+    "options": {
+      "A": "Standard Query Language",
+      "B": "Structured Query Language",
+      "C": "Sequential Query Logic",
+      "D": "Simple Query List"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "TECH013",
+    "category": "Technology",
+    "question": "What is the name of the version control system created by Linus Torvalds?",
+    "options": {
+      "A": "SVN",
+      "B": "Mercurial",
+      "C": "Git",
+      "D": "CVS"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH014",
+    "category": "Technology",
+    "question": "Which layer of the OSI model is responsible for routing packets?",
+    "options": {
+      "A": "Data Link Layer",
+      "B": "Transport Layer",
+      "C": "Network Layer",
+      "D": "Session Layer"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH015",
+    "category": "Technology",
+    "question": "What does 'IoT' stand for?",
+    "options": {
+      "A": "Internet of Technology",
+      "B": "Integration of Things",
+      "C": "Internet of Things",
+      "D": "Index of Technology"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH016",
+    "category": "Technology",
+    "question": "Which company owns the social media platform Instagram?",
+    "options": {
+      "A": "Twitter/X",
+      "B": "Alphabet",
+      "C": "Meta",
+      "D": "Snap Inc."
+    },
+    "answer": "C"
+  },
+  {
+    "id": "TECH017",
+    "category": "Technology",
+    "question": "What does 'DNS' stand for in networking?",
+    "options": {
+      "A": "Dynamic Network Service",
+      "B": "Domain Name System",
+      "C": "Data Network Standard",
+      "D": "Distributed Name Server"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "TECH018",
+    "category": "Technology",
+    "question": "Which sorting algorithm has a worst-case time complexity of O(n log n)?",
+    "options": {
+      "A": "Bubble Sort",
+      "B": "Insertion Sort",
+      "C": "Selection Sort",
+      "D": "Merge Sort"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "TECH019",
+    "category": "Technology",
+    "question": "What does 'SSL' stand for?",
+    "options": {
+      "A": "Secure Socket Layer",
+      "B": "Safe Server Link",
+      "C": "Standard Security Layer",
+      "D": "Secure System Login"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "TECH020",
+    "category": "Technology",
+    "question": "Which company developed the TypeScript programming language?",
+    "options": {
+      "A": "Google",
+      "B": "Apple",
+      "C": "Meta",
+      "D": "Microsoft"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "FOOD001",
+    "category": "Food & Drink",
+    "question": "Which country is the origin of sushi?",
+    "options": {
+      "A": "China",
+      "B": "Korea",
+      "C": "Japan",
+      "D": "Thailand"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "FOOD002",
+    "category": "Food & Drink",
+    "question": "What is the main ingredient in guacamole?",
+    "options": {
+      "A": "Tomato",
+      "B": "Avocado",
+      "C": "Mango",
+      "D": "Papaya"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "FOOD003",
+    "category": "Food & Drink",
+    "question": "Which country produces the most coffee?",
+    "options": {
+      "A": "Colombia",
+      "B": "Ethiopia",
+      "C": "Vietnam",
+      "D": "Brazil"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "FOOD004",
+    "category": "Food & Drink",
+    "question": "What type of pastry is used in a traditional beef Wellington?",
+    "options": {
+      "A": "Shortcrust pastry",
+      "B": "Puff pastry",
+      "C": "Choux pastry",
+      "D": "Filo pastry"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "FOOD005",
+    "category": "Food & Drink",
+    "question": "Which spice gives turmeric its yellow color?",
+    "options": {
+      "A": "Capsaicin",
+      "B": "Piperine",
+      "C": "Curcumin",
+      "D": "Saffron"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "FOOD006",
+    "category": "Food & Drink",
+    "question": "What is the traditional Italian cold meat often used in pizza?",
+    "options": {
+      "A": "Prosciutto",
+      "B": "Pepperoni",
+      "C": "Mortadella",
+      "D": "Salami"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "FOOD007",
+    "category": "Food & Drink",
+    "question": "Which country is the origin of the croissant?",
+    "options": {
+      "A": "France",
+      "B": "Switzerland",
+      "C": "Belgium",
+      "D": "Austria"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "FOOD008",
+    "category": "Food & Drink",
+    "question": "Which vitamin is most abundant in oranges?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin B12",
+      "C": "Vitamin C",
+      "D": "Vitamin D"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "FOOD009",
+    "category": "Food & Drink",
+    "question": "What type of bean is used to make hummus?",
+    "options": {
+      "A": "Black bean",
+      "B": "Kidney bean",
+      "C": "Chickpea",
+      "D": "Lentil"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "FOOD010",
+    "category": "Food & Drink",
+    "question": "What is the world's most expensive spice by weight?",
+    "options": {
+      "A": "Vanilla",
+      "B": "Saffron",
+      "C": "Cardamom",
+      "D": "Truffle"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "FOOD011",
+    "category": "Food & Drink",
+    "question": "Which fruit is known as the 'King of Fruits' in Southeast Asia?",
+    "options": {
+      "A": "Mango",
+      "B": "Jackfruit",
+      "C": "Durian",
+      "D": "Rambutan"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "FOOD012",
+    "category": "Food & Drink",
+    "question": "From which animal does mozzarella cheese traditionally come?",
+    "options": {
+      "A": "Cow",
+      "B": "Goat",
+      "C": "Sheep",
+      "D": "Buffalo"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "FOOD013",
+    "category": "Food & Drink",
+    "question": "What is the primary grain used to make most beers?",
+    "options": {
+      "A": "Wheat",
+      "B": "Rice",
+      "C": "Barley",
+      "D": "Corn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "FOOD014",
+    "category": "Food & Drink",
+    "question": "Which country is Gouda cheese originally from?",
+    "options": {
+      "A": "Denmark",
+      "B": "Switzerland",
+      "C": "Netherlands",
+      "D": "Germany"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "FOOD015",
+    "category": "Food & Drink",
+    "question": "What is the Japanese rice wine known as?",
+    "options": {
+      "A": "Shochu",
+      "B": "Sake",
+      "C": "Soju",
+      "D": "Baijiu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ART001",
+    "category": "Art & Architecture",
+    "question": "Who sculpted 'David'?",
+    "options": {
+      "A": "Raphael",
+      "B": "Donatello",
+      "C": "Bernini",
+      "D": "Michelangelo"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ART002",
+    "category": "Art & Architecture",
+    "question": "In which city is the Louvre Museum located?",
+    "options": {
+      "A": "Rome",
+      "B": "London",
+      "C": "Paris",
+      "D": "Madrid"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ART003",
+    "category": "Art & Architecture",
+    "question": "Which architect designed the Guggenheim Museum in Bilbao?",
+    "options": {
+      "A": "Renzo Piano",
+      "B": "Frank Gehry",
+      "C": "Zaha Hadid",
+      "D": "Norman Foster"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ART004",
+    "category": "Art & Architecture",
+    "question": "Which post-Impressionist painter is famous for his series of water lily paintings?",
+    "options": {
+      "A": "Paul Gauguin",
+      "B": "Paul Cézanne",
+      "C": "Claude Monet",
+      "D": "Pierre-Auguste Renoir"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ART005",
+    "category": "Art & Architecture",
+    "question": "Who painted 'The Starry Night'?",
+    "options": {
+      "A": "Henri Matisse",
+      "B": "Paul Gauguin",
+      "C": "Vincent van Gogh",
+      "D": "Edgar Degas"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ART006",
+    "category": "Art & Architecture",
+    "question": "What architectural style is Notre-Dame Cathedral in Paris?",
+    "options": {
+      "A": "Baroque",
+      "B": "Romanesque",
+      "C": "Renaissance",
+      "D": "Gothic"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ART007",
+    "category": "Art & Architecture",
+    "question": "Which artist is known for his melting clocks painting 'The Persistence of Memory'?",
+    "options": {
+      "A": "Pablo Picasso",
+      "B": "René Magritte",
+      "C": "Salvador Dalí",
+      "D": "Joan Miró"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "ART008",
+    "category": "Art & Architecture",
+    "question": "The Sagrada Família basilica is located in which city?",
+    "options": {
+      "A": "Madrid",
+      "B": "Seville",
+      "C": "Valencia",
+      "D": "Barcelona"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "ART009",
+    "category": "Art & Architecture",
+    "question": "Which art movement is characterized by geometric shapes and primary colors?",
+    "options": {
+      "A": "Impressionism",
+      "B": "Cubism",
+      "C": "Surrealism",
+      "D": "Expressionism"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "ART010",
+    "category": "Art & Architecture",
+    "question": "Who designed the Eiffel Tower?",
+    "options": {
+      "A": "Charles Garnier",
+      "B": "Hector Guimard",
+      "C": "Gustave Eiffel",
+      "D": "Eugène Viollet-le-Duc"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LANG001",
+    "category": "Language",
+    "question": "How do you say 'thank you' in Mandarin Chinese?",
+    "options": {
+      "A": "Arigatou",
+      "B": "Xièxie",
+      "C": "Kamsamida",
+      "D": "Shukran"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "LANG002",
+    "category": "Language",
+    "question": "Which language has the most native speakers in the world?",
+    "options": {
+      "A": "Spanish",
+      "B": "English",
+      "C": "Mandarin Chinese",
+      "D": "Hindi"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LANG003",
+    "category": "Language",
+    "question": "The word 'kindergarten' is borrowed from which language?",
+    "options": {
+      "A": "Dutch",
+      "B": "Swedish",
+      "C": "German",
+      "D": "Danish"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LANG004",
+    "category": "Language",
+    "question": "Which is the official language of Brazil?",
+    "options": {
+      "A": "Spanish",
+      "B": "Portuguese",
+      "C": "French",
+      "D": "English"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "LANG005",
+    "category": "Language",
+    "question": "How many official languages does Switzerland have?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LANG006",
+    "category": "Language",
+    "question": "Which language is spoken by the most countries in the world?",
+    "options": {
+      "A": "French",
+      "B": "Spanish",
+      "C": "English",
+      "D": "Arabic"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LANG007",
+    "category": "Language",
+    "question": "What writing system does Japanese primarily use?",
+    "options": {
+      "A": "Hanzi only",
+      "B": "Hiragana only",
+      "C": "Hiragana, Katakana, and Kanji",
+      "D": "Katakana only"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LANG008",
+    "category": "Language",
+    "question": "Which ancient language is considered the oldest written language?",
+    "options": {
+      "A": "Sanskrit",
+      "B": "Ancient Egyptian",
+      "C": "Sumerian",
+      "D": "Ancient Greek"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "LANG009",
+    "category": "Language",
+    "question": "What is a word that reads the same forwards and backwards called?",
+    "options": {
+      "A": "Anagram",
+      "B": "Palindrome",
+      "C": "Homophone",
+      "D": "Acronym"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "LANG010",
+    "category": "Language",
+    "question": "Which language has the most words in its dictionary?",
+    "options": {
+      "A": "Spanish",
+      "B": "German",
+      "C": "French",
+      "D": "English"
+    },
+    "answer": "D"
+  }
+]
