@@ -8,10 +8,7 @@ import dev.irakodes.triviablitz.model.Question;
 import org.springframework.stereotype.Service;
 
 import java.security.SecureRandom;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Service
@@ -122,6 +119,46 @@ public class GameService {
 
             return new AnswerAckEvent("ANSWER_ACK", correct, points, message);
         }
+    }
+
+    public Optional<GameRoom> removePlayer(String sessionId) {
+        /*return rooms.values().stream()
+                .filter(room -> room.getPlayers().contains(sessionId))
+                .findFirst()
+                .map(room -> {
+                    room.getPlayers().remove(sessionId);
+                    return room;
+                });*/
+
+        for (var room : rooms.values()) {
+            synchronized (room) {
+                var removed = room.getPlayers().removeIf(p -> p
+                        .getId().equals(sessionId));
+                if (!removed) continue;
+
+                room.getAnswers().remove(sessionId);
+                if (room.getPlayers().isEmpty()) {
+                    rooms.remove(room.getCode());
+                    return Optional.empty();
+                }
+
+                ensureSingleHost(room);
+                return Optional.of(room);
+            }
+        }
+
+        return Optional.empty();
+    }
+
+    private void ensureSingleHost(GameRoom room) {
+        var hasHost = room.getPlayers().stream()
+                .anyMatch(Player::isHost);
+
+        if (!hasHost && !room.getPlayers().isEmpty())
+            // room.getPlayers().stream()
+            //     .findFirst()
+            //     .ifPresent(player -> player.setHost(true));
+            room.getPlayers().getFirst().setHost(true);
     }
 
     private String normalizeOption(String option) {
