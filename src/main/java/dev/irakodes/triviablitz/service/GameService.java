@@ -1,5 +1,6 @@
 package dev.irakodes.triviablitz.service;
 
+import dev.irakodes.triviablitz.event.AnswerAckEvent;
 import dev.irakodes.triviablitz.model.GameRoom;
 import dev.irakodes.triviablitz.model.GameStatus;
 import dev.irakodes.triviablitz.model.Player;
@@ -80,6 +81,53 @@ public class GameService {
 
             return questionService.getAllQuestions().getFirst();
         }
+    }
+
+    public AnswerAckEvent submitAnswer(String code, String sessionId, int questionIndex,
+                                       String selectedOption) {
+        var room = getRequiredRoom(normalizeRoomCode(code));
+        var questions = questionService.getAllQuestions();
+        synchronized (room) {
+            if (room.getStatus() != GameStatus.IN_PROGRESS) {
+                throw new IllegalStateException("Game is not in progress.");
+            }
+            if (room.getCurrentQuestionIndex() != questionIndex) {
+                throw new IllegalStateException("Question is no longer active");
+            }
+
+            var player = room.getPlayers().stream()
+                    .filter(p -> p.getId()
+                            .equals(sessionId))
+                    .findFirst()
+                    .orElseThrow(() -> new IllegalStateException("Player is not part of the room."));
+
+            if (room.getAnswers().containsKey(sessionId)) {
+                throw new IllegalStateException("Answer already submitted for this question");
+            }
+
+            var normalizedOption = normalizeOption(selectedOption);
+            var question = questions.get(questionIndex);
+
+            if (!question.options().containsKey(normalizedOption))
+                throw new IllegalArgumentException("Selected option is invalid");
+
+            room.getAnswers().put(sessionId, normalizedOption);
+            var correct = question.correctAnswer().equalsIgnoreCase(normalizedOption);
+
+            var points = correct ? CORRECT_ANSWER_POINTS : 0;
+
+            if (correct) player.setScore(player.getScore() + points);
+
+            var message = correct ? "Correct!" : "Incorrect.";
+
+            return new AnswerAckEvent("ANSWER_ACK", correct, points, message);
+        }
+    }
+
+    private String normalizeOption(String option) {
+        if (option == null || option.isBlank())
+            throw new IllegalArgumentException("Option cannot be null or blank");
+        return option.trim().toUpperCase(Locale.ROOT);
     }
 
     private void resetScores(GameRoom room) {
