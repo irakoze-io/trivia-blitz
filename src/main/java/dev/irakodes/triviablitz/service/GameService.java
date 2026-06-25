@@ -150,6 +150,64 @@ public class GameService {
         return Optional.empty();
     }
 
+    public Optional<GameRoom> getRoom(String code) {
+        if (code == null || code.isBlank()) return Optional.empty();
+        return Optional
+                .ofNullable(rooms.get(code.trim().toUpperCase(Locale.ROOT)));
+    }
+
+    public Optional<Question> advanceToNextQuestion(String code) {
+        var room = getRequiredRoom(normalizeRoomCode(code));
+        var questions = questionService.getAllQuestions();
+
+        synchronized (room) {
+            var nextIndex = room.getCurrentQuestionIndex() + 1;
+            room.getAnswers().clear();
+
+            if (nextIndex >= questions.size()) {
+                room.setStatus(GameStatus.FINISHED);
+                return Optional.empty();
+            }
+
+            room.setCurrentQuestionIndex(nextIndex);
+            return Optional.of(questions.get(nextIndex));
+        }
+    }
+
+    public void finishGame(String code) {
+        var room = getRequiredRoom(normalizeRoomCode(code));
+        synchronized (room) {
+            // room.getStatus();
+            room.setStatus(GameStatus.FINISHED);
+            room.getAnswers().clear();
+        }
+    }
+
+    public boolean haveAllPlayersAnswered(String code) {
+        var room = getRequiredRoom(normalizeRoomCode(code));
+        synchronized (room) {
+            return !room.getPlayers().isEmpty()
+                    && room.getAnswers().size() == room.getPlayers().size();
+        }
+    }
+
+    public List<Player> getPlayersSortedByScore(String code) {
+        var room = getRequiredRoom(normalizeRoomCode(code));
+        synchronized (room) {
+            return room.getPlayers().stream()
+                    .sorted(Comparator
+                            .comparingInt(Player::getScore).reversed()
+                            .thenComparing(Player::getName))
+                    .map(p -> new Player(
+                            p.getId(),
+                            p.getName(),
+                            p.isHost(),
+                            p.getScore()
+                    ))
+                    .toList();
+        }
+    }
+
     private void ensureSingleHost(GameRoom room) {
         var hasHost = room.getPlayers().stream()
                 .anyMatch(Player::isHost);
