@@ -3,6 +3,7 @@ package dev.irakodes.triviablitz.service;
 import dev.irakodes.triviablitz.model.GameRoom;
 import dev.irakodes.triviablitz.model.GameStatus;
 import dev.irakodes.triviablitz.model.Player;
+import dev.irakodes.triviablitz.model.Question;
 import org.springframework.stereotype.Service;
 
 import java.security.SecureRandom;
@@ -24,6 +25,12 @@ public class GameService {
 
     private final SecureRandom secureRandom = new SecureRandom();
     private final ConcurrentHashMap<String, GameRoom> rooms = new ConcurrentHashMap<>();
+
+    private final QuestionService questionService;
+
+    public GameService(QuestionService questionService) {
+        this.questionService = questionService;
+    }
 
     public GameRoom createRoom(String playerName, String sessionId) {
         var normalizedName = validateNamePlayer(playerName);
@@ -52,6 +59,31 @@ public class GameService {
             room.getPlayers().add(new Player(sessionId, normalizedName, false, 0));
             return room;
         }
+    }
+
+    public Question startGame(String code, String sessionId) {
+        var room = getRequiredRoom(normalizeRoomCode(code));
+        synchronized (room) {
+            var host = room.getPlayers().stream()
+                    .filter(Player::isHost)
+                    .findFirst()
+                    .orElseThrow(() -> new IllegalArgumentException("Room " + code + " has no host."));
+
+            if (!host.getId().equals(sessionId)) throw new IllegalStateException("Only the host can start the game.");
+            if (room.getStatus() != GameStatus.LOBBY) throw new IllegalStateException("Game has already started.");
+
+            room.setStatus(GameStatus.IN_PROGRESS);
+            room.setCurrentQuestionIndex(0);
+            room.getAnswers().clear();
+
+            resetScores(room);
+
+            return questionService.getAllQuestions().getFirst();
+        }
+    }
+
+    private void resetScores(GameRoom room) {
+        room.getPlayers().forEach(player -> player.setScore(0));
     }
 
     private GameRoom getRequiredRoom(String code) {
