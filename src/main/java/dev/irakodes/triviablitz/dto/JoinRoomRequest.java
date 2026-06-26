@@ -1,4 +1,4 @@
 package dev.irakodes.triviablitz.dto;
 
-public record JoinRoomRequest(String code, String name) {
+public record JoinRoomRequest(String roomCode, String playerName) {
 }

@@ -1,6 +1,6 @@
 package dev.irakodes.triviablitz.service;
 
-import dev.irakodes.triviablitz.dto.TickEvent;
+import dev.irakodes.triviablitz.event.TickEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;

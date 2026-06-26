@@ -30,6 +30,10 @@ public class GameService {
         this.questionService = questionService;
     }
 
+    public List<Question> getQuestions() {
+        return questionService.getAllQuestions();
+    }
+
     public GameRoom createRoom(String playerName, String sessionId) {
         var normalizedName = validateNamePlayer(playerName);
         var roomCode = generateRoomCode();
@@ -238,21 +242,21 @@ public class GameService {
 
     private String normalizeRoomCode(String code) {
         if (code == null || code.isBlank()) {
-            throw new IllegalArgumentException("Room code is required.");
+            throw new IllegalArgumentException("Room roomCode is required.");
         }
         return code.trim().toUpperCase(Locale.ROOT);
     }
 
     private String validatePlayerName(String playerName) {
         if (playerName == null || playerName.isBlank()) {
-            throw new IllegalArgumentException("Player name is required.");
+            throw new IllegalArgumentException("Player playerName is required.");
         }
         return playerName.trim();
     }
 
     private String validateNamePlayer(String name) {
         if (name == null || name.isBlank())
-            throw new IllegalArgumentException("Player name cannot be null or blank");
+            throw new IllegalArgumentException("Player playerName cannot be null or blank");
         return name.trim();
     }
 
