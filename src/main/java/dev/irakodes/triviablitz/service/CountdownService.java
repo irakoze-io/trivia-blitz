@@ -63,7 +63,6 @@ public class CountdownService {
         if (future != null) {
             future.cancel(false);
         }
-        log.info("Countdown cancelled for room: {}", roomCode);
     }
 
     private String topic(String roomCode) {

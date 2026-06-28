@@ -8,6 +8,8 @@ import dev.irakodes.triviablitz.model.Question;
 import dev.irakodes.triviablitz.registry.SessionRegistry;
 import dev.irakodes.triviablitz.service.CountdownService;
 import dev.irakodes.triviablitz.service.GameService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
@@ -18,7 +20,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class GameRoomController {
 
-    private final static org.slf4j.Logger log = org.slf4j.LoggerFactory
+    private final static Logger log = LoggerFactory
             .getLogger(GameRoomController.class);
 
     private final static int QUESTION_TIME_LIMIT_SECONDS = 20;
@@ -75,8 +77,6 @@ public class GameRoomController {
         countdownService.startCountdown(room.getCode(),
                 QUESTION_TIME_LIMIT_SECONDS,
                 () -> completeQuestion(room.getCode(), questionIndex));
-
-        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     private void completeQuestion(String roomCode, int expectedQuestionIndex) {
